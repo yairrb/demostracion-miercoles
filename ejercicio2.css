@@ -1,0 +1,18 @@
+
+
+body{
+    text-align: center;
+    background-color: aqua;
+}
+
+#caja{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    margin-left: 40%;
+}
+
+#caja:hover {
+    background-color: gray;
+    cursor: pointer;
+}

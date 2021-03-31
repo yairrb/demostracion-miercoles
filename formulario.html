@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Mi formulario</title>
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+
+    <script src="formulario.js"></script>
+    
+
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <div id="noLogueado"> Usted no esta logeado</div>
+
+    <h1>Formulario de Login</h1>
+
+    <div id="login">
+        <form action="#">
+
+            <label for="name"> Nombre</label>
+            <input type="text" id="nombre" name="name">
+            
+            <label for="contraseña"> Contraseña </label>
+            <input type="password" name="contraseña" id="pass">
+
+            <input type="button"  id="botonSubmit" value="Login" onclick="saludar()">
+
+        </form>
+    </div>
+    
+    <h2 id="saludo"></h2>
+    <button id="salir">
+        Cerrar sesion
+    </button>
+</body>
+</html>
